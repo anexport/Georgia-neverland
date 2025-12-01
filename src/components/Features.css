@@ -1,0 +1,47 @@
+.features {
+  background-color: var(--color-sand);
+  text-align: center;
+}
+
+.section-title {
+  font-size: 3rem;
+  color: var(--color-teal);
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 32px;
+}
+
+.feature-card {
+  background-color: var(--color-white);
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  color: var(--color-ocean);
+  margin-bottom: 12px;
+  font-family: var(--font-heading);
+}
+
+.feature-description {
+  color: var(--color-charcoal);
+  font-size: 1rem;
+}
