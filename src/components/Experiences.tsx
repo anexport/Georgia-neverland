@@ -1,19 +1,22 @@
 import './Experiences.css';
+import snorkelingImg from '../assets/images/491563856.jpg';
+import thresherSharkImg from '../assets/images/491563858.jpg';
+import villageLifeImg from '../assets/images/491563860.jpg';
 
 const experiences = [
   {
     title: "Snorkelling North Beach",
-    image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2670&auto=format&fit=crop", // Placeholder
+    image: snorkelingImg,
     description: "Discover vibrant coral reefs and swim with starfish just steps from the hostel."
   },
   {
     title: "Thresher Shark Diving",
-    image: "https://images.unsplash.com/photo-1560275619-4662e36fa65c?q=80&w=2600&auto=format&fit=crop", // Placeholder
+    image: thresherSharkImg,
     description: "Malapascua is famous for thresher sharks. We can help organize your dives."
   },
   {
     title: "Village Life",
-    image: "https://images.unsplash.com/photo-1464582883107-8adf2dca8a9f?q=80&w=2670&auto=format&fit=crop", // Placeholder
+    image: villageLifeImg,
     description: "Immerse yourself in the local culture, join small gatherings, and meet the friendly locals."
   }
 ];

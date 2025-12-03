@@ -1,6 +1,6 @@
 .reviews {
   position: relative;
-  background-image: url('https://images.unsplash.com/photo-1534008897995-27a23e859048?q=80&w=2574&auto=format&fit=crop'); /* Placeholder: Beach/Hammock */
+  background-image: url('../assets/images/491563847.jpg'); /* Placeholder: Beach/Hammock */
   background-size: cover;
   background-position: center;
   background-attachment: fixed; /* Parallax effect */

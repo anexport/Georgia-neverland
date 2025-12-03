@@ -1,4 +1,5 @@
 import './Food.css';
+import foodImage from '../assets/images/491563849.jpg';
 
 const Food = () => {
   return (
@@ -6,7 +7,7 @@ const Food = () => {
       <div className="container food-container">
         <div className="food-image-wrapper">
           <img 
-            src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=2670&auto=format&fit=crop" 
+            src={foodImage} 
             alt="Delicious island food" 
             className="food-image"
             loading="lazy"

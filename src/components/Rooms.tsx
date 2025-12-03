@@ -1,21 +1,24 @@
 import './Rooms.css';
+import bambooHutsImg from '../assets/images/491563852.jpg';
+import glampingTentsImg from '../assets/images/491563854.jpg';
+import dormRoomsImg from '../assets/images/491563855.jpg';
 
 const rooms = [
   {
     title: "Bamboo Huts",
-    image: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2670&auto=format&fit=crop", // Placeholder
+    image: bambooHutsImg,
     features: ["Private & Rustic", "Fan-Cooled", "Mosquito Net", "Shared Bathrooms"],
     price: "From ₱800/night"
   },
   {
     title: "Glamping Tents",
-    image: "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?q=80&w=2670&auto=format&fit=crop", // Placeholder
+    image: glampingTentsImg,
     features: ["Platform Tents", "Real Beds", "Garden Setting", "Nature Immersion"],
     price: "From ₱600/night"
   },
   {
     title: "Dorm Rooms",
-    image: "https://images.unsplash.com/photo-1555854785-985c9e3a1e63?q=80&w=2670&auto=format&fit=crop", // Placeholder
+    image: dormRoomsImg,
     features: ["Bamboo Bunk Beds", "Budget-Friendly", "Fan-Cooled", "Social Atmosphere"],
     price: "From ₱350/night"
   }

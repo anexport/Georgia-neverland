@@ -2,7 +2,7 @@
   position: relative;
   height: 100vh;
   width: 100%;
-  background-image: url('https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?q=80&w=2574&auto=format&fit=crop'); /* Placeholder: Palm trees/Beach */
+  background-image: url('../assets/images/hero-bg.jpg'); /* User provided hero image */
   background-size: cover;
   background-position: center;
   display: flex;
