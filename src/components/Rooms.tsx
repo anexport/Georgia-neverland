@@ -1,19 +1,19 @@
 import './Rooms.css';
 import bambooHutsImg from '../assets/images/bamboo-huts.jpg';
-import dormRoomsImg from '../assets/images/491563855.jpg';
+import dormRoomsImg from '../assets/images/dorm.jpg';
 
 const rooms = [
   {
     title: "Bamboo Huts",
     image: bambooHutsImg,
     features: ["Private & Rustic", "Fan-Cooled", "Mosquito Net", "Shared Bathrooms"],
-    price: "From ₱800/night"
+    price: "From ₱1000/night"
   },
   {
     title: "Dorm Rooms",
     image: dormRoomsImg,
     features: ["Bamboo Bunk Beds", "Budget-Friendly", "Fan-Cooled", "Social Atmosphere"],
-    price: "From ₱350/night"
+    price: "From ₱500/night"
   }
 ];
 
