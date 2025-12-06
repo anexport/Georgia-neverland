@@ -3,7 +3,7 @@ import './Features.css';
 const features = [
   {
     title: "Quiet Nature Escape",
-    description: "Kalubian is peaceful, filled with coconut trees and away from the crowds.",
+    description: "Malapasqua is peaceful, filled with coconut trees and away from the crowds.",
     icon: "🌴"
   },
   {

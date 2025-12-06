@@ -1,6 +1,5 @@
 import './Rooms.css';
-import bambooHutsImg from '../assets/images/491563852.jpg';
-import glampingTentsImg from '../assets/images/491563854.jpg';
+import bambooHutsImg from '../assets/images/bamboo-huts.jpg';
 import dormRoomsImg from '../assets/images/491563855.jpg';
 
 const rooms = [
@@ -9,12 +8,6 @@ const rooms = [
     image: bambooHutsImg,
     features: ["Private & Rustic", "Fan-Cooled", "Mosquito Net", "Shared Bathrooms"],
     price: "From ₱800/night"
-  },
-  {
-    title: "Glamping Tents",
-    image: glampingTentsImg,
-    features: ["Platform Tents", "Real Beds", "Garden Setting", "Nature Immersion"],
-    price: "From ₱600/night"
   },
   {
     title: "Dorm Rooms",
