@@ -1,17 +1,18 @@
 import './Experiences.css';
-import snorkelingImg from '../assets/images/491563856.jpg';
+import snorkelingImg from '../assets/images/snorkeling.webp';
+import snorkelingJpgImg from '../assets/images/snorkeling.jpg';
 import thresherSharkImg from '../assets/images/491563858.jpg';
-import villageLifeImg from '../assets/images/491563860.jpg';
+import villageLifeImg from '../assets/images/491563856.jpg';
 
 const experiences = [
   {
     title: "Snorkelling North Beach",
-    image: snorkelingImg,
+    image: snorkelingJpgImg,
     description: "Discover vibrant coral reefs and swim with starfish just steps from the hostel."
   },
   {
     title: "Thresher Shark Diving",
-    image: thresherSharkImg,
+    image: snorkelingImg,
     description: "Malapascua is famous for thresher sharks. We can help organize your dives."
   },
   {

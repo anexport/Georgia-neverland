@@ -6,3 +6,6 @@ export const getWhatsAppUrl = (): string => {
   return `https://wa.me/${WHATSAPP_PHONE}?text=${encodedMessage}`;
 };
 
+export const BOOKING_COM_URL = 'https://www.booking.com/hotel/ph/georgias-neverland-hostel.html';
+export const AGODA_URL = 'https://www.agoda.com/georgia-s-neverland-hostel/hotel/cebu-ph.html?selectedproperty=45887838';
+

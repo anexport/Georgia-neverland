@@ -8,7 +8,7 @@ const faqs = [
   },
   {
     question: "Is there Wi-Fi available?",
-    answer: "Yes, we have free Starlink Wi-Fi available in the common areas. It's generally reliable, but please remember we are on an island!"
+    answer: "Yes, we have free Wi-Fi available in the common areas. It's generally reliable, but please remember we are on an island!"
   },
   {
     question: "Can I rent a motorbike or park mine?",

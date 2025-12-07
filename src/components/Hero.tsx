@@ -10,7 +10,7 @@ const Hero = () => {
         <p className="hero-subtitle">Nature • Community • Malapascua's Quiet North</p>
         <div className="hero-buttons">
           <a href={getWhatsAppUrl()} className="btn btn-primary" target="_blank" rel="noopener noreferrer">Message us on WhatsApp</a>
-          <a href="#" className="btn btn-outline">Check Availability</a>
+          <a href="#booking" className="btn btn-outline">Check Availability</a>
         </div>
       </div>
     </section>

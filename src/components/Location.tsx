@@ -28,7 +28,7 @@ const Location = () => {
               <span className="chip">🛵 10 min ride to Bounty Beach</span>
               <span className="chip">🦈 20 min boat to Monad Shoal</span>
             </div>
-            <a href="https://goo.gl/maps/placeholder" target="_blank" rel="noopener noreferrer" className="btn btn-outline location-btn">
+            <a href="https://www.google.com/maps/search/?api=1&query=Georgia's+Neverland+Hostel+Malapascua" target="_blank" rel="noopener noreferrer" className="btn btn-outline location-btn">
               Open in Google Maps
             </a>
           </div>
