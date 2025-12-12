@@ -1,0 +1,6 @@
+# robots.txt for Georgia's Neverland Hostel
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://georgiasneverland.com/sitemap.xml

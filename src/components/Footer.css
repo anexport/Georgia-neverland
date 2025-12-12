@@ -40,6 +40,24 @@
   margin-bottom: 8px;
 }
 
+.social-links {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.social-links a {
+  color: var(--color-white);
+  opacity: 0.7;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.social-links a:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
 @media (max-width: 768px) {
   .footer-buttons {
     flex-direction: column;

@@ -36,28 +36,32 @@ function App() {
   return (
     <div className="app">
       <Analytics />
-      <Hero />
-      <div className="fade-in-section">
-        <Features />
-      </div>
-      <div className="fade-in-section">
-        <Rooms />
-      </div>
-      <div className="fade-in-section">
-        <Food />
-      </div>
-      <div className="fade-in-section">
-        <Experiences />
-      </div>
-      <div className="fade-in-section">
-        <Reviews />
-      </div>
-      <div className="fade-in-section">
-        <Location />
-      </div>
-      <div className="fade-in-section">
-        <FAQ />
-      </div>
+      <header>
+        <Hero />
+      </header>
+      <main>
+        <div className="fade-in-section">
+          <Features />
+        </div>
+        <div className="fade-in-section">
+          <Rooms />
+        </div>
+        <div className="fade-in-section">
+          <Food />
+        </div>
+        <div className="fade-in-section">
+          <Experiences />
+        </div>
+        <div className="fade-in-section">
+          <Reviews />
+        </div>
+        <div className="fade-in-section">
+          <Location />
+        </div>
+        <div className="fade-in-section">
+          <FAQ />
+        </div>
+      </main>
       <Footer />
     </div>
   );
