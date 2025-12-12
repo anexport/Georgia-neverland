@@ -29,6 +29,18 @@
   color: var(--color-teal);
 }
 
+.footer .btn-booking {
+  background-color: #003580;
+  border-color: #003580;
+  color: var(--color-white);
+}
+
+.footer .btn-booking:hover {
+  background-color: #004a9f;
+  border-color: #004a9f;
+  color: var(--color-white);
+}
+
 .footer-info {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding-top: 32px;

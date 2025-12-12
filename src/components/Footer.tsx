@@ -40,7 +40,7 @@ const Footer = () => {
             </a>
             <a
               href={BOOKING_COM_URL}
-              className="btn btn-outline"
+              className="btn btn-outline btn-booking"
               target="_blank"
               rel="noopener noreferrer"
             >
