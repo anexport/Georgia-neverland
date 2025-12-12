@@ -19,6 +19,7 @@ const Footer = () => {
               className="btn btn-primary"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Contact us on WhatsApp"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -43,6 +44,7 @@ const Footer = () => {
               className="btn btn-outline btn-booking"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Book on Booking.com"
             >
               Book on Booking.com
             </a>
@@ -51,6 +53,7 @@ const Footer = () => {
               className="btn btn-outline"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Book on Agoda"
             >
               Book on Agoda
             </a>

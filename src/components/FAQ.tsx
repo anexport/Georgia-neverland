@@ -47,7 +47,7 @@ const FAQ = () => {
               onClick={() => toggleFAQ(index)}
             >
               <div className="faq-question">
-                {faq.question}
+                <h3 className="faq-question-text">{faq.question}</h3>
                 <span className="faq-toggle">{activeIndex === index ? '−' : '+'}</span>
               </div>
               <div className="faq-answer">

@@ -36,7 +36,7 @@ const Rooms = () => {
                   ))}
                 </ul>
                 <p className="room-price">{room.price}</p>
-                <a href="#" className="btn btn-outline room-btn">Check Availability</a>
+                <a href="#booking" className="btn btn-outline room-btn">Check Availability</a>
               </div>
             </div>
           ))}

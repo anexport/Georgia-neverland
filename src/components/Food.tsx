@@ -25,7 +25,7 @@ const Food = () => {
             <li>🍻 Bar with Cold Beers & Tropical Cocktails</li>
             <li>🔥 Communal Dinners & BBQ Nights</li>
           </ul>
-          <a href="#" className="btn btn-primary">View Menu</a>
+          <a href="#booking" className="btn btn-primary">Book Now</a>
         </div>
       </div>
     </section>

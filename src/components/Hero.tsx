@@ -9,7 +9,7 @@ const Hero = () => {
         <h1 className="hero-title">Georgia's Neverland Hostel</h1>
         <p className="hero-subtitle">Nature • Community • Malapascua's Quiet North</p>
         <div className="hero-buttons">
-          <a href={getWhatsAppUrl()} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
+          <a href={getWhatsAppUrl()} className="btn btn-primary" target="_blank" rel="noopener noreferrer" aria-label="Contact us on WhatsApp">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
