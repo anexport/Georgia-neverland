@@ -35,26 +35,46 @@ const FAQ = () => {
     setActiveIndex(activeIndex === index ? null : index);
   };
 
+  const handleKeyDown = (e: React.KeyboardEvent, index: number) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      toggleFAQ(index);
+    }
+  };
+
   return (
-    <section className="section faq">
+    <section className="section faq" aria-labelledby="faq-heading">
       <div className="container">
-        <h2 className="section-title">Frequently Asked Questions</h2>
+        <h2 id="faq-heading" className="section-title">Frequently Asked Questions</h2>
         <div className="faq-list">
-          {faqs.map((faq, index) => (
-            <div 
-              key={index} 
-              className={`faq-item ${activeIndex === index ? 'active' : ''}`}
-              onClick={() => toggleFAQ(index)}
-            >
-              <div className="faq-question">
-                <h3 className="faq-question-text">{faq.question}</h3>
-                <span className="faq-toggle">{activeIndex === index ? '−' : '+'}</span>
+          {faqs.map((faq, index) => {
+            const isActive = activeIndex === index;
+            return (
+              <div key={index} className={`faq-item ${isActive ? 'active' : ''}`}>
+                <button
+                  className="faq-question"
+                  onClick={() => toggleFAQ(index)}
+                  onKeyDown={(e) => handleKeyDown(e, index)}
+                  aria-expanded={isActive}
+                  aria-controls={`faq-answer-${index}`}
+                >
+                  <h3 className="faq-question-text">{faq.question}</h3>
+                  <span className="faq-toggle" aria-hidden="true">
+                    {isActive ? '−' : '+'}
+                  </span>
+                </button>
+                <div
+                  id={`faq-answer-${index}`}
+                  className="faq-answer"
+                  role="region"
+                  aria-labelledby={`faq-question-${index}`}
+                  hidden={!isActive}
+                >
+                  <p>{faq.answer}</p>
+                </div>
               </div>
-              <div className="faq-answer">
-                <p>{faq.answer}</p>
-              </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

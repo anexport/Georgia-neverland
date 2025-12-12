@@ -1,11 +1,18 @@
 .reviews {
   position: relative;
-  background-image: url('../assets/images/491563847.jpg'); /* Placeholder: Beach/Hammock */
+  background-image: url('../assets/images/491563847.jpg');
   background-size: cover;
   background-position: center;
-  background-attachment: fixed; /* Parallax effect */
+  background-attachment: scroll; /* Default for mobile - fixed causes performance issues */
   color: var(--color-white);
   text-align: center;
+}
+
+/* Enable parallax only on larger screens */
+@media (min-width: 769px) {
+  .reviews {
+    background-attachment: fixed;
+  }
 }
 
 .reviews-overlay {

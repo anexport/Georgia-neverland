@@ -10,7 +10,6 @@
 .faq-item {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   margin-bottom: 16px;
-  cursor: pointer;
   transition: all 0.3s ease;
 }
 
@@ -22,10 +21,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
   padding: 16px 0;
   font-size: 1.2rem;
   font-weight: 600;
   color: var(--color-ocean);
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
 }
 
 .faq-question-text {

@@ -36,10 +36,13 @@ function App() {
   return (
     <div className="app">
       <Analytics />
+      <a href="#main-content" className="skip-link">
+        Skip to main content
+      </a>
       <header>
         <Hero />
       </header>
-      <main>
+      <main id="main-content">
         <div className="fade-in-section">
           <Features />
         </div>
