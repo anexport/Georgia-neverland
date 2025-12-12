@@ -48,14 +48,25 @@
 }
 
 .social-links a {
-  color: var(--color-white);
-  opacity: 0.7;
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
 }
 
 .social-links a:hover {
-  opacity: 1;
   transform: scale(1.1);
+}
+
+.social-links .instagram-icon {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.social-links .instagram-icon svg {
+  fill: url(#instagram-gradient);
 }
 
 @media (max-width: 768px) {

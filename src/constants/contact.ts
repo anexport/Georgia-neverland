@@ -9,4 +9,5 @@ export const getWhatsAppUrl = (): string => {
 export const BOOKING_COM_URL = 'https://www.booking.com/hotel/ph/georgias-neverland-hostel.html';
 export const AGODA_URL = 'https://www.agoda.com/georgia-s-neverland-hostel/hotel/cebu-ph.html?selectedproperty=45887838';
 export const INSTAGRAM_URL = 'https://www.instagram.com/georgiasneverlandhostel/';
+export const FACEBOOK_URL = 'https://www.facebook.com/GeorgiasNeverlandHostel/';
 
